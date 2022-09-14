@@ -58,9 +58,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Štěpán Vácha"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "I like data and I don't understand coffee, but I'm trying to."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
