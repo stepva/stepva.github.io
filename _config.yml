@@ -58,7 +58,7 @@ plugins:
 author:
   name: "Štěpán Vácha"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "I like data, sports and learning new stuff. I don't understand coffee but I'm trying."
+  bio: "Welcome to my personal blog where I'm pretending to understand coffee and trying to make it seem like I do a lot of interesting stuff."
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
