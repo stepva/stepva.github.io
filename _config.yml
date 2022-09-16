@@ -56,9 +56,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Štěpán Vácha"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I like data, sports and learning new stuff. I don't understand coffee but I'm trying."
+  name: "Štěpán Vácha"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "I like data, sports and learning new stuff. I don't understand coffee but I'm trying."
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -66,6 +66,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/stepva"
+    - label: "Strava"
+      icon: "fab fa-fw fa-strava"
+      url: "https://www.strava.com/athletes/20241758"
     - label: "GoodReads"
       icon: "fab fa-fw fa-goodreads"
       url: "https://www.goodreads.com/user/show/155656751-t-p-n-v-cha"
