@@ -82,6 +82,11 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/stepva"
 
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
 defaults:
   # _posts
   - scope:
@@ -101,6 +106,14 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _coffee
+  - scope:
+      path: ""
+      type: coffee
+    values:
+      layout: single
+      author_profile: false
+      share: false
 
 category_archive:
   type: liquid
