@@ -3,6 +3,7 @@ title: Coffee
 layout: collection
 permalink: /coffee/
 collection: coffee
+entries_layout: grid
 classes: wide
 ---
 

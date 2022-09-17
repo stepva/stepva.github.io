@@ -108,12 +108,11 @@ defaults:
       author_profile: true
   # _coffee
   - scope:
-      path: ""
+      path: "_coffee"
       type: coffee
     values:
       layout: single
       author_profile: false
-      share: false
 
 category_archive:
   type: liquid
