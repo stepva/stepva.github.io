@@ -83,7 +83,7 @@ footer:
       url: "https://github.com/stepva"
 
 collections:
-  portfolio:
+  coffee:
     output: true
     permalink: /:collection/:path/
 
