@@ -1,6 +1,6 @@
 ---
 title: "🇨🇴 Finca Potosí from 🇸🇰 Good Times Coffee"
-excerpt: "My very first coffee."
+excerpt: "My very first coffee from my very first trip to Bratislava. Both were good!"
 categories:
   - Coffee
 tags:
