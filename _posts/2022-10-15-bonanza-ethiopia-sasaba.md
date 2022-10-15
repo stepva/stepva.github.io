@@ -9,7 +9,7 @@ tags:
 classes: wide
 ---
 
-![Sasaba Ethiopia from Bonanza Coffee]({{ site.url }}{{ site.baseurl }}/assets/images/sasaba_ethiopia.jpg "Sasaba Ethiopia from Bonanza Coffee")
+![Sasaba Ethiopia from Bonanza Coffee]({{ site.url }}{{ site.baseurl }}/assets/images/sasaba_ethopia.jpg "Sasaba Ethiopia from Bonanza Coffee")
 
 In May I visited my friend in Berlin, Germany. Knowing that one of the goals of my trip was t buy myself some next coffee to try, she recommended [Bonanza Coffee](https://bonanzacoffee.de), a chain of cafés and roasteries in Berlin, voted best Cafés and Coffee Roasteries in Germany 2022 and also distributing to Asia with branches in South Korea.
 
