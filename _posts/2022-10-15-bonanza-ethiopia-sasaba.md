@@ -11,7 +11,7 @@ classes: wide
 
 ![Sasaba Ethiopia from Bonanza Coffee]({{ site.url }}{{ site.baseurl }}/assets/images/sasaba_ethopia.jpg "Sasaba Ethiopia from Bonanza Coffee")
 
-In May I visited my friend in Berlin, Germany. Knowing that one of the goals of my trip was t buy myself some next coffee to try, she recommended [Bonanza Coffee](https://bonanzacoffee.de), a chain of cafés and roasteries in Berlin, voted best Cafés and Coffee Roasteries in Germany 2022 and also distributing to Asia with branches in South Korea.
+In May I visited my friend in Berlin, Germany. Knowing that one of the goals of my trip was to buy myself some next coffee to try, she recommended [Bonanza Coffee](https://bonanzacoffee.de), a chain of cafés and roasteries in Berlin, voted best Cafés and Coffee Roasteries in Germany 2022 and also distributing to Asia with branches in South Korea.
 
 It didn't take long to choose - I went for **Sasaba Ethiopia coffee**, medium (omni) roast, probably the most famous one from Bonanza and a winning coffee of several brewers cups and barista championships. Coming from the **Guji region in Ethiopia**, the beans are a mixed local heirloom varietals, term refering to old arabice plant varietals in Ethiopia. The coffee was naturally processed in the **Sasaba Washing Station**, founded in 2005 and owned by Tsegay Hagos Tsefaye, which collects coffee from more than 500 smallholders in the Guji region, washes or naturally processes them (depending on the coffee) and then distributes the final product. The natural coffees, as was the case with this Sasaba Ethiopia from Bonanza, usually dry for 15 to 20 days.
 
