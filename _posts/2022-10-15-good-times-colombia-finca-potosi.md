@@ -6,6 +6,7 @@ categories:
 tags:
   - Colombia
   - omni roast
+classes: wide
 ---
 
 ![Finca Potosí from Good Times Coffee]({{ site.url }}{{ site.baseurl }}/assets/images/finca_potosi.jpg "Finca Potosí from Good Times Coffee")
