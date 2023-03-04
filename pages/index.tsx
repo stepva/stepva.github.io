@@ -4,7 +4,7 @@ export default function Index() {
   return (
     <div className="flex justify-center min-h-screen flex-col">
       <div className="order-1 text-center items-end h-1/2 p-2">
-        <p className="font-bold text-6xl">hi, I&aposm Štěpán</p>
+        <p className="font-bold text-6xl">hi, I&apos;m Štěpán</p>
       </div>
       <div className="order-2 items-start h-1/2 flex flex-row justify-center">
         <div className="order-1 text-center p-2">
