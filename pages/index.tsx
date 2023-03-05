@@ -30,7 +30,7 @@ export default function Index() {
           </button>
         </header>
         <div className="order-1 justify-center items-end h-1/2 p-2 flex flex-1 flex-row">
-          <div className="order-1 text-right">
+          <div className="order-1 text-center">
             <p className="font-bold text-6xl">hi, I&apos;m Štěpán</p>
           </div>
         </div>
