@@ -10,7 +10,7 @@ import {
 
 export default function About() {
   return (
-    <div className="flex justify-center items-center h-screen flex-col">
+    <div className="flex justify-center items-center min-h-screen flex-col">
       <header className="flex flex-row p-3 justify-center">
         <div className="order-1 text-center">
           <p className="text-xl">
@@ -21,7 +21,7 @@ export default function About() {
           </p>
         </div>
       </header>
-      <div className="h-2/3 max-w-2xl justify-center items-end flex flex-1 text-justify">
+      <div className="min-h-2/3 max-w-2xl justify-center items-center flex flex-1 text-justify">
         <p className="text-xl leading-relaxed">
           Hi! I&apos;m currently finishing my Master&apos;s degree in
           Quantitative Finance after having completed BSc. in Economics. More
@@ -38,7 +38,7 @@ export default function About() {
           And I wonder how you got here.
         </p>
       </div>
-      <div className="order-2 items-start h-1/3 flex flex-row justify-center p-10">
+      <div className="order-2 items-start min-h-1/3 flex flex-row justify-center p-10">
         <div className="order-1 p-2">
           <a href="https://github.com/stepva" target="_blank">
             <FaGithub size={50} />
