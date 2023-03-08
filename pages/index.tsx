@@ -4,29 +4,12 @@ import { useState, useEffect } from "react";
 import { SunIcon, MoonIcon } from "@heroicons/react/24/outline";
 
 export default function Index() {
-  const { theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  if (!mounted) return <></>;
-
   return (
     <>
       <div className="flex justify-center h-screen flex-col">
         <header className="flex flex-row p-3 justify-center">
-          <button
-            onClick={() => {
-              setTheme(theme === "dark" ? "light" : "dark");
-            }}
-          >
-            {theme === "dark" ? (
-              <SunIcon className="w-6" />
-            ) : (
-              <MoonIcon className="w-6" />
-            )}
+          <button>
+            <SunIcon className="w-6" />
           </button>
         </header>
         <div className="order-1 justify-center items-end h-1/2 p-2 flex flex-1 flex-row">
