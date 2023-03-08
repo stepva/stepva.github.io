@@ -10,9 +10,9 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <main className={theme}>
-      <div className="dark:text-white dark:bg-black">
+      <div className="dark:text-white dark:bg-black p-4">
         {router.pathname === "/" && (
-          <header className="flex flex-row p-3 justify-center">
+          <header className="flex flex-row justify-center">
             <button
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             >
