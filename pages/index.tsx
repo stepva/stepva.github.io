@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Index() {
   return (
-    <div className="flex justify-center flex-col h-screen">
-      <div className="justify-center items-end h-1/2 p-2 flex flex-1 flex-row">
+    <div className="flex justify-center flex-col h-[calc(100vh-56px)] p-4">
+      <div className="justify-center items-end flex flex-1 flex-row">
         <div className="text-center">
           <p className="font-bold text-6xl">hi, I&apos;m Štěpán</p>
         </div>
