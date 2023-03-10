@@ -26,7 +26,7 @@ export default function Index() {
         </div>
         <div className="text-center p-2">
           <p className="text-xl hover:font-bold">
-            <Link href="/">Coffee</Link>
+            <Link href="/coffee/">Coffee</Link>
           </p>
         </div>
       </div>
