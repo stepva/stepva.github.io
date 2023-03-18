@@ -71,7 +71,10 @@ export default function Index() {
       </div>
       <div className="flex justify-center items-center mt-6 mb-5">
         <p className="text-2xl hover:font-bold">
-          <Link href="/coffee/" className="hover:font-bold transition-opacity">
+          <Link
+            href="/coffee/posts/"
+            className="hover:font-bold transition-opacity"
+          >
             All coffee posts
           </Link>
         </p>

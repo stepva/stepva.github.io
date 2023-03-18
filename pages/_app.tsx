@@ -5,7 +5,7 @@ import { useState } from "react";
 import { SunIcon, MoonIcon } from "@heroicons/react/24/outline";
 
 export default function App({ Component, pageProps }: AppProps) {
-  const [theme, setTheme] = useState<"dark" | "light">("dark");
+  const [theme, setTheme] = useState<"dark" | "light">("light");
   const router = useRouter();
 
   return (
