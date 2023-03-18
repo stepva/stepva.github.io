@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getPostFromSlug } from "@/lib/content";
 import { getPosts, Post } from "@/lib/content";
 import { GetStaticProps } from "next";
+import CookedRichText from "@/components/rich_text";
 
 interface Prop {
   post: Post;
@@ -38,7 +39,9 @@ export default function CoffeeSlug({ post }: Prop) {
       </header>
 
       <div className="flex justify-center items-end text-justify mt-3 sm:mt-6">
-        <p className="max-w-2xl"></p>
+        <div className="max-w-2xl">
+          <CookedRichText text={post.text} />
+        </div>
       </div>
     </div>
   );

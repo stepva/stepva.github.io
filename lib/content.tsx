@@ -18,9 +18,7 @@ function cookPost(entry: Entry<any>): Post {
     slug: entry.fields.slug,
     excerpt: entry.fields.excerpt,
     bought_at: entry.fields.date,
-    text: entry.fields.text.content[0].content
-      .map((c: any) => c.value)
-      .join(" "),
+    text: entry.fields.text,
     written_at: entry.sys.createdAt,
     updated_at: entry.sys.updatedAt,
   };
@@ -54,10 +52,12 @@ export async function getPostFromSlug(
   return cooked;
 }
 
+export type RichText = any;
+
 export interface Post {
   title: string;
   slug: string;
-  text: string;
+  text: RichText;
   excerpt: string;
   bought_at: string;
   written_at: string;
