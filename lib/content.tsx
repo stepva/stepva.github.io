@@ -13,15 +13,19 @@ const client = createClient({
 });
 
 function cookPost(entry: Entry<any>): Post {
-  return {
+  const post: Post = {
     title: entry.fields.title,
     slug: entry.fields.slug,
     excerpt: entry.fields.excerpt,
-    bought_at: entry.fields.date,
+    date: entry.fields.date,
     text: entry.fields.text,
     written_at: entry.sys.createdAt,
     updated_at: entry.sys.updatedAt,
   };
+  if ("sources" in entry.fields) {
+    post.sources = entry.fields.sources;
+  }
+  return post;
 }
 
 export async function getPosts(post_type: "coffee" | "blog"): Promise<Post[]> {
@@ -59,7 +63,8 @@ export interface Post {
   slug: string;
   text: RichText;
   excerpt: string;
-  bought_at: string;
+  date: string;
   written_at: string;
   updated_at: string;
+  sources?: RichText;
 }

@@ -3,6 +3,7 @@ import { getPostFromSlug } from "@/lib/content";
 import { getPosts, Post } from "@/lib/content";
 import { GetStaticProps } from "next";
 import CookedRichText from "@/components/rich_text";
+import { format } from "date-fns";
 
 interface Prop {
   post: Post;
@@ -25,6 +26,9 @@ export async function getStaticPaths() {
 }
 
 export default function CoffeeSlug({ post }: Prop) {
+  const written_at = new Date(post.written_at).setHours(0, 0, 0, 0);
+  const updated_at = new Date(post.updated_at).setHours(0, 0, 0, 0);
+
   return (
     <div className="flex min-h-screen flex-col p-4">
       <header className="flex p-3 justify-center">
@@ -55,6 +59,16 @@ export default function CoffeeSlug({ post }: Prop) {
         <div className="max-w-2xl leading-relaxed space-y-4">
           <p className="text-center text-2xl"> {post.title} </p>
           <CookedRichText text={post.text} />
+          <p className="text-sm">
+            <CookedRichText text={post.sources} />
+          </p>
+          <p className="text-right text-sm italic">
+            {" "}
+            bought on {format(new Date(post.date), "dd MMM Y")} <br />
+            {updated_at > written_at ? "updated" : "written"} on{" "}
+            {format(Math.max(updated_at, written_at), "dd MMM Y")}
+          </p>
+          <p className="text-right italic"></p>
         </div>
       </div>
     </div>
