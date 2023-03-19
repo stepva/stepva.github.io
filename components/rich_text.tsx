@@ -3,6 +3,7 @@ import {
   Options,
 } from "@contentful/rich-text-react-renderer";
 import { RichText } from "@/lib/content";
+import { FC } from "react";
 // import { BLOCKS, MARKS } from "@contentful/rich-text-types";
 
 // const richTextDocument = {
@@ -43,8 +44,8 @@ type Prop = {
   text: RichText;
 };
 
-const CookedRichText = ({ text }: Prop) => {
-  return documentToReactComponents(text, options);
+const CookedRichText: FC<Prop> = ({ text }): JSX.Element => {
+  return <>{documentToReactComponents(text, options)}</>;
 };
 
 export default CookedRichText;

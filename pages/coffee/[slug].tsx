@@ -33,13 +33,27 @@ export default function CoffeeSlug({ post }: Prop) {
             <Link href="/" className="hover:font-bold transition-opacity">
               Home
             </Link>{" "}
-            / Coffee / {post.title}
+            /{" "}
+            <Link
+              href="/coffee/"
+              className="hover:font-bold transition-opacity"
+            >
+              Coffee
+            </Link>{" "}
+            /{" "}
+            <Link
+              href="/coffee/posts/"
+              className="hover:font-bold transition-opacity"
+            >
+              Posts
+            </Link>
           </p>
         </div>
       </header>
 
       <div className="flex justify-center items-end text-justify mt-3 sm:mt-6">
-        <div className="max-w-2xl">
+        <div className="max-w-2xl leading-relaxed space-y-4">
+          <p className="text-center text-2xl"> {post.title} </p>
           <CookedRichText text={post.text} />
         </div>
       </div>
