@@ -11,6 +11,7 @@ import {
 export default function About() {
   return (
     <div className="flex justify-between min-h-screen flex-col p-4">
+      <title>About Štěpán</title>
       <header className="flex p-3 justify-center">
         <div className="text-center">
           <p className="text-xl">

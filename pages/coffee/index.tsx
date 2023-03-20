@@ -8,6 +8,7 @@ const MapWithNoSSR = dynamic(() => import("../../components/map"), {
 export default function Index() {
   return (
     <div className="flex min-h-screen flex-col p-4">
+      <title>Štěpán&apos;s coffee diary</title>
       <header className="flex p-3 justify-center">
         <div className="text-center">
           <p className="text-xl">

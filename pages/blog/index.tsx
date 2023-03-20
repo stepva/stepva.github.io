@@ -18,6 +18,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
 export default function Posts({ posts }: Props) {
   return (
     <div className="flex min-h-screen flex-col p-4">
+      <title>Štěpán&apos;s blog</title>
       <header className="flex p-3 justify-center">
         <div className="text-center">
           <p className="text-xl">
