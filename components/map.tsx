@@ -60,9 +60,14 @@ const Map = () => {
             </Link>
           </Popup>
         </Marker>
-        {/* <Marker position={[48.21729, 16.35114]}>
-        <Popup>CoffeePirates</Popup>
-      </Marker> */}
+        <Marker position={[48.21729, 16.35114]}>
+          <Popup>
+            🇦🇹 CoffeePirates <br />
+            <Link href="/coffee/coffeepirates-las-lajas">
+              <div className="text-center mt-1">🇨🇷 Las Lajas</div>
+            </Link>
+          </Popup>
+        </Marker>
       </MarkerClusterGroup>
     </MapContainer>
   );
