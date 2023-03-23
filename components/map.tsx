@@ -68,6 +68,14 @@ const Map = () => {
             </Link>
           </Popup>
         </Marker>
+        <Marker position={[46.20298, 6.16009]}>
+          <Popup>
+            🇨🇭 Corde Coffee <br />
+            <Link href="/coffee/corde-serrano">
+              <div className="text-center mt-1">🇨🇺 Serrano</div>
+            </Link>
+          </Popup>
+        </Marker>
       </MarkerClusterGroup>
     </MapContainer>
   );
