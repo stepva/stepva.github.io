@@ -15,7 +15,7 @@ const BlogPostPrev: FC<BlogPostPrevProps> = ({ post }) => {
     <Link href={"/blog/" + post.slug}>
       <div className="hover:bg-gray-200 hover:dark:text-black group p-5 ">
         <span className="text-xl group-hover:font-bold">{post.title}</span>
-        {/* <p>{post.excerpt}</p> */}
+        <p>{post.excerpt}</p>
         <p className="text-right italic">
           {updated_at > written_at ? "updated" : "written"} on{" "}
           {format(Math.max(updated_at, written_at), "dd MMM Y")}

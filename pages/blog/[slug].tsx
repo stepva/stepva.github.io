@@ -12,26 +12,26 @@ interface Prop {
 export const getStaticProps: GetStaticProps<Prop> = async (context: any) => {
   return {
     props: {
-      post: await getPostFromSlug("coffee", context.params.slug),
+      post: await getPostFromSlug("blog", context.params.slug),
     },
   };
 };
 
 export async function getStaticPaths() {
-  const posts = await getPosts("coffee");
+  const posts = await getPosts("blog");
   return {
     paths: posts.map((post) => ({ params: { slug: post.slug } })),
     fallback: false,
   };
 }
 
-export default function CoffeeSlug({ post }: Prop) {
+export default function BlogSlug({ post }: Prop) {
   const written_at = new Date(post.written_at).setHours(0, 0, 0, 0);
   const updated_at = new Date(post.updated_at).setHours(0, 0, 0, 0);
 
   return (
     <div className="flex min-h-screen flex-col p-4">
-      <title>Štěpán&apos;s coffee post</title>
+      <title>Štěpán&apos;s blog post</title>
       <header className="flex p-3 justify-center">
         <div className="text-center">
           <p className="text-xl">
@@ -39,19 +39,9 @@ export default function CoffeeSlug({ post }: Prop) {
               Home
             </Link>{" "}
             /{" "}
-            <Link
-              href="/coffee/"
-              className="hover:font-bold transition-opacity"
-            >
-              Coffee
+            <Link href="/blog/" className="hover:font-bold transition-opacity">
+              Blog
             </Link>{" "}
-            /{" "}
-            <Link
-              href="/coffee/posts/"
-              className="hover:font-bold transition-opacity"
-            >
-              Posts
-            </Link>
           </p>
         </div>
       </header>
@@ -65,7 +55,7 @@ export default function CoffeeSlug({ post }: Prop) {
           </p>
           <p className="text-right text-sm italic">
             {" "}
-            bought on {format(new Date(post.date), "dd MMM Y")} <br />
+            started writing on {format(new Date(post.date), "dd MMM Y")} <br />
             {updated_at > written_at ? "updated" : "written"} on{" "}
             {format(Math.max(updated_at, written_at), "dd MMM Y")}
           </p>
