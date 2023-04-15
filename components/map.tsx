@@ -11,7 +11,7 @@ const Map = () => {
   return (
     <MapContainer
       center={[50, 16]}
-      zoom={5}
+      zoom={4}
       scrollWheelZoom={true}
       style={{ height: "500px", width: "672px" }}
     >
@@ -73,6 +73,14 @@ const Map = () => {
             🇨🇭 Corde Coffee <br />
             <Link href="/coffee/corde-serrano">
               <div className="text-center mt-1">🇨🇺 Serrano</div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={[36.04503, 14.23905]}>
+          <Popup>
+            🇲🇹 Victoria Central (Vicky Coffee) <br />
+            <Link href="/coffee/microlot-vicky-coffee">
+              <div className="text-center mt-1">🇷🇼 Microlot #3</div>
             </Link>
           </Popup>
         </Marker>
