@@ -90,6 +90,20 @@ const Map = () => {
             <Link href="/coffee/pachamama-wiener-roesthaus">
               <div className="text-center mt-1">🇵🇪 PachaMama</div>
             </Link>
+            <Link href="/coffee/guji-tero-wiener-roesthaus">
+              <div className="text-center mt-1">🇪🇹 Guji Tero Farm</div>
+            </Link>
+            <Link href="/coffee/nicaragua-wiener-roesthaus">
+              <div className="text-center mt-1">🇳🇮 Nicaragua</div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={[52.62944, 1.29287]}>
+          <Popup>
+            🇬🇧 Strangers Coffee Company <br />
+            <Link href="/coffee/fine-city-blend-strangers">
+              <div className="text-center mt-1">🇨🇴🇪🇹 Fine City Blend</div>
+            </Link>
           </Popup>
         </Marker>
       </MarkerClusterGroup>

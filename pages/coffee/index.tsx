@@ -62,12 +62,12 @@ export default function Index() {
           <a href="https://aeropress.com" className="hover:font-bold">
             Aeropress
           </a>
-          , both of which I&apos;m trying to master now. I&apos;ve also recently
-          started using the{" "}
-          <a href="https://ibrew.coffee" className="hover:font-bold">
-            iBrewCoffee
+          , both of which I&apos;m trying to master now. For that, I really
+          enjoy the{" "}
+          <a href="https://aeromatic.app" className="hover:font-bold">
+            Aeromatic
           </a>{" "}
-          app and I can only recommend it.
+          app.
         </p>
       </div>
       <div className="flex justify-center items-center mt-6 mb-5">
