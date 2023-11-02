@@ -106,6 +106,30 @@ const Map = () => {
             </Link>
           </Popup>
         </Marker>
+        <Marker position={[48.2124, 16.37077]}>
+          <Popup>
+            🇦🇹 Kaffein <br />
+            <Link href="/coffee/poche-777-kaffein">
+              <div className="text-center mt-1">🇨🇷 La Chumeca Poche 777</div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={[50.08877, 14.43348]}>
+          <Popup>
+            🇨🇿 EMA espresso bar <br />
+            <Link href="/coffee/tabu-natural-friedhats">
+              <div className="text-center mt-1">🇨🇴 Tabi Natural (external)</div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={[50.03403, 15.76249]}>
+          <Popup>
+            🇨🇿 Putovní Pražírna <br />
+            <Link href="/coffee/gotae-sodu-putovni-prazirna">
+              <div className="text-center mt-1">🇪🇹 Gotae Sodu</div>
+            </Link>
+          </Popup>
+        </Marker>
       </MarkerClusterGroup>
     </MapContainer>
   );
