@@ -22,12 +22,12 @@ export default function Index() {
 
       <div className="flex justify-center items-end text-justify mt-3 sm:mt-6">
         <p className="max-w-2xl">
-          My personal coffee diary, where I note down great coffee I bought in
-          great cafés all around the world. I&apos;m still learning, pretending
-          that I understand specialty coffee, experimenting with grinds and
-          brews and just writing down what I liked and disliked. <br />I enjoy
-          the story behing each roast, I like to connect coffee with travelling
-          and I often bring new beans from my trips - the{" "}
+          My personal coffee diary, where I note down great coffe roasteries I
+          have discovered all around the world. I&apos;m still learning,
+          pretending that I understand specialty coffee, experimenting with
+          grinds and brews and just writing down what I liked and disliked.{" "}
+          <br />I enjoy the story behing each roast, I like to connect coffee
+          with travelling and I often bring new beans from my trips - the{" "}
           <a href="https://europeancoffeetrip.com" className="hover:font-bold">
             European Coffee Trip
           </a>{" "}
@@ -62,22 +62,12 @@ export default function Index() {
           <a href="https://aeropress.com" className="hover:font-bold">
             Aeropress
           </a>
-          , both of which I&apos;m trying to master now. For that, I really
-          enjoy the{" "}
+          , both of which I&apos;m trying to master now. For the latter, I
+          really enjoy the{" "}
           <a href="https://aeromatic.app" className="hover:font-bold">
             Aeromatic
           </a>{" "}
           app.
-        </p>
-      </div>
-      <div className="flex justify-center items-center mt-6 mb-5">
-        <p className="text-2xl hover:font-bold">
-          <Link
-            href="/coffee/posts/"
-            className="hover:font-bold transition-opacity"
-          >
-            All coffee posts
-          </Link>
         </p>
       </div>
     </div>
