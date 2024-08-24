@@ -136,7 +136,7 @@ const Map = () => {
             Best café in Granada, also met Casper Pedrsen there
           </Popup>
         </Marker>
-        <Marker position={[50.03403, 15.76249]}>
+        <Marker position={[50.0744477, 14.8590876]}>
           <Popup>
             <Link href="https://maps.app.goo.gl/7EveJnCycAJMii1u5">
               🇨🇿 Zrníčko <br />

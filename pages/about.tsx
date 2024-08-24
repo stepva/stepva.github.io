@@ -25,25 +25,25 @@ export default function About() {
 
       <div className="justify-center items-center flex flex-1 text-justify">
         <p className="sm:text-xl text-lg max-w-2xl leading-relaxed">
-          I have recently finished my Master&apos;s degree in Quantitative
-          Finance in Vienna after having completed a BSc. in Economics in the
-          UK. I&apos;m working as a Quant in a perhaps morally questionable, but
+          I have finished my Master&apos;s degree in Quantitative Finance in
+          Vienna last year after having completed a BSc. in Economics in the UK.
+          I&apos;m working as a Quant in a perhaps morally questionable, but
           definitely interesting, booming and fun industry - esports betting.
           <br /> In my free time, I aspire to become a hybrid athlete. I enjoy
-          working out at the gym, as well as cycling, running and swimming - my
-          first Ironman 70.3 is coming up in the summer. I try to read a lot and
-          I listen to podcasts way too much. Oh, and I also fell in love with
-          specialty coffee, so consider part of this website to be my personal
-          coffee diary. <br />
+          working out at the gym, as well as cycling, running and swimming - I
+          completed my first Ironman 70.3 this summer, and it was amazing! I try
+          to read a lot and I listen to podcasts way too much. Oh, and I also
+          fell in love with specialty coffee, so consider part of this website
+          to be my personal coffee diary. <br />
           I like to call myself a data barista - I think that data and coffee
           have a lot in common. One has to take care of its data just like
           farmers do with coffee beans, so that they can brew a delicious
           analysis out of it.
           <br />
-          Next to coffee, you&apos;d ideally find here some interesting articles
-          on my blog and an overview of my projects, some of which I&apos;m
-          really proud of. But honestly, I&apos;m mainly doing this to learn
-          webdev.
+          Next to my favorite coffee roasteries, you&apos;d ideally find here
+          some interesting articles on my blog and an overview of my projects,
+          some of which I&apos;m really proud of. But honestly, I&apos;m mainly
+          doing this to learn webdev.
         </p>
       </div>
 
