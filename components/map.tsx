@@ -189,6 +189,51 @@ const Map = () => {
             My favourite Spanish roastery, really enjoying them
           </Popup>
         </Marker>
+        <Marker position={[-0.7383, -90.31706]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/k9JKdeRfhcDD74AS6">
+              🇪🇨 Islander Coffee Roasters <br />
+            </Link>
+            Coffee harvested and roasted in the Galapagos Islands! My friend
+            brought them from her trip, crazy
+          </Popup>
+        </Marker>
+        <Marker position={[50.078737, 14.456382]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/N58rMss7gdFFEzVAA">
+              🇨🇿 Project FOX <br />
+            </Link>
+            Great coffee which I get at their great two dots coffee place, funky
+            tastes
+          </Popup>
+        </Marker>
+        <Marker position={[27.773823, -15.694039]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/N5cvUr2kEYDWqqLPA">
+              🇪🇸 Anfitrion <br />
+            </Link>
+            Specialty coffee place in the Anfi del Mar holiday resort, friendly
+            barista and coffee which wasn&apos;t bad - I appreciate there even
+            being something like this
+          </Popup>
+        </Marker>
+        <Marker position={[43.7680952, 11.2585566]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/eRXNxsUdZDyuqsxW9">
+              🇮🇹 ditta Artigianale <br />
+            </Link>
+            Great coffee which my girlfriend brought from her trip to Florence
+          </Popup>
+        </Marker>
+        <Marker position={[52.6293989, 1.2863582]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/sh5LM18QELf2Jw8CA">
+              🇬🇧 Kofra <br />
+            </Link>
+            Another Norwich roastery which I&apos;m discovering thanks to Jordan
+            who brought their coffee with him on our vacation
+          </Popup>
+        </Marker>
       </MarkerClusterGroup>
     </MapContainer>
   );
