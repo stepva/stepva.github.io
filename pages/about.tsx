@@ -27,8 +27,9 @@ export default function About() {
         <p className="sm:text-xl text-lg max-w-2xl leading-relaxed">
           I have finished my Master&apos;s degree in Quantitative Finance in
           Vienna last year after having completed a BSc. in Economics in the UK.
-          I&apos;m working as a Quant in a perhaps morally questionable, but
-          definitely interesting, booming and fun industry - esports betting.
+          I&apos;m working as a Quant / Python Developer / Data Engineer in a
+          perhaps morally questionable, but definitely interesting, booming and
+          fun industry - esports betting.
           <br /> In my free time, I aspire to become a hybrid athlete. I enjoy
           working out at the gym, as well as cycling, running and swimming - I
           completed my first Ironman 70.3 this summer, and it was amazing! I try
@@ -41,9 +42,9 @@ export default function About() {
           analysis out of it.
           <br />
           Next to my favorite coffee roasteries, you&apos;d ideally find here
-          some interesting articles on my blog and an overview of my projects,
-          some of which I&apos;m really proud of. But honestly, I&apos;m mainly
-          doing this to learn webdev.
+          some interesting articles on my blog and an overview of my projects as
+          well as my accomplishments and plans when it comes to races. But
+          honestly, I&apos;m mainly doing this to learn webdev.
         </p>
       </div>
 
