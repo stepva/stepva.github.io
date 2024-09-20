@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const races = [
   { type: "Marathons", timesCompleted: 1, bestTime: "3:39:01" },
-  { type: "Half Marathons", timesCompleted: 5, bestTime: "1:31:33" },
+  { type: "Half Marathons", timesCompleted: 6, bestTime: "1:31:33" },
   { type: "Half-distance Triathlons", timesCompleted: 1, bestTime: "5:47:11" },
 ];
 
