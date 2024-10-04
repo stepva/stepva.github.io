@@ -29,8 +29,22 @@ const upcomingRaces = [
     type: "🏃🏻‍♂️",
     name: "European Running Championships Marathon",
     date: "2025-04-13",
-    city: "Brussels-Leuven",
+    city: "Brussels",
     country: "🇧🇪",
+  },
+  {
+    type: "🚴🏻‍♂️",
+    name: "L'Etape Czech Republic Horská",
+    date: "2025-08-02",
+    city: "Prachatice",
+    country: "🇨🇿",
+  },
+  {
+    type: "🔱",
+    name: "IRONMAN 70.3 Zell am See-Kaprun",
+    date: "2025-08-31",
+    city: "Zell am See",
+    country: "🇦🇹",
   },
   // Add more races as needed
 ];
@@ -80,7 +94,7 @@ export default function Projects() {
       <div className="flex flex-col items-center mt-10 space-y-6">
         <h1 className="text-3xl font-bold mb-2">Upcoming Races</h1>
 
-        <ul className="w-full max-w-md space-y-4">
+        <ul className="w-full max-w-md md:max-w-xl space-y-4">
           {upcomingRaces.map((race) => (
             <li
               key={race.name}
@@ -91,15 +105,20 @@ export default function Projects() {
                 <h2 className="text-xl font-semibold dark:text-black">
                   {race.type} {race.name}
                 </h2>
-                <p className="text-gray-500 md:ml-4">
-                  {race.city}, {race.country}
-                </p>
+                <p className="text-gray-500 md:ml-4"></p>
               </div>
 
               {/* Second row: Date on the right, countdown on the left */}
               <div className="flex justify-between">
-                <p className="text-gray-500">{raceCountdowns[race.name]}</p>
-                <p className="text-gray-700">{race.date}</p>
+                <p className="text-gray-500">
+                  {race.city}, {race.country}
+                </p>
+                <div className="flex flex-row">
+                  <p className="text-gray-500">
+                    {raceCountdowns[race.name]} &nbsp; &nbsp;
+                  </p>
+                  <p className="text-gray-700">{race.date}</p>
+                </div>
               </div>
             </li>
           ))}
