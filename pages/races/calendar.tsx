@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
 
-// 🏃🏻‍♂️, 🚴🏻‍♂️
+// 🏃🏻‍♂️, 🚴🏻‍♂️, 🔱
 
 const upcomingRaces = [
   {
@@ -34,6 +34,13 @@ const upcomingRaces = [
   },
   {
     type: "🚴🏻‍♂️",
+    name: "Mondsee 5 Seen Radmarathon",
+    date: "2025-06-15",
+    city: "Mondsee",
+    country: "🇦🇹",
+  },
+  {
+    type: "🚴🏻‍♂️",
     name: "L'Etape Czech Republic Horská",
     date: "2025-08-02",
     city: "Prachatice",
@@ -45,6 +52,13 @@ const upcomingRaces = [
     date: "2025-08-31",
     city: "Zell am See",
     country: "🇦🇹",
+  },
+  {
+    type: "🏃🏻‍♂️",
+    name: "Cardiff Half Marathon",
+    date: "2025-10-05",
+    city: "Cardiff",
+    country: "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
   },
   // Add more races as needed
 ];
