@@ -48,6 +48,13 @@ const upcomingRaces = [
   },
   {
     type: "🏃🏻‍♂️",
+    name: "Běchovice - Praha",
+    date: "2025-09-28",
+    city: "Prague",
+    country: "🇨🇿",
+  },
+  {
+    type: "🏃🏻‍♂️",
     name: "Cardiff Half Marathon",
     date: "2025-10-05",
     city: "Cardiff",
