@@ -41,6 +41,13 @@ const upcomingRaces = [
   },
   {
     type: "🔱",
+    name: "5150 Hradec Králové",
+    date: "2025-08-17",
+    city: "Hradec Králové",
+    country: "🇨🇿",
+  },
+  {
+    type: "🔱",
     name: "IRONMAN 70.3 Zell am See-Kaprun",
     date: "2025-08-31",
     city: "Zell am See",
