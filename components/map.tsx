@@ -181,7 +181,7 @@ const Map = () => {
             from them
           </Popup>
         </Marker>
-        <Marker position={[52.4936763, 13.4271241]}>
+        <Marker position={[36.7219187, -4.4229441]}>
           <Popup>
             <Link href="https://maps.app.goo.gl/NU6EsA8wbC3D5yqm8">
               🇪🇸 Syra Coffee <br />
@@ -222,7 +222,8 @@ const Map = () => {
             <Link href="https://maps.app.goo.gl/eRXNxsUdZDyuqsxW9">
               🇮🇹 ditta Artigianale <br />
             </Link>
-            Great coffee which my girlfriend brought from her trip to Florence
+            Great coffee which my then-girlfriend brought from her trip to
+            Florence
           </Popup>
         </Marker>
         <Marker position={[52.6293989, 1.2863582]}>
@@ -232,6 +233,45 @@ const Map = () => {
             </Link>
             Another Norwich roastery which I&apos;m discovering thanks to Jordan
             who brought their coffee with him on our vacation
+          </Popup>
+        </Marker>
+        <Marker position={[40.4069806, -3.6990362]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/jshsChPKyWhWTFKg7">
+              🇪🇸 Hola Coffee <br />
+            </Link>
+            My sister brought me coffee from this place when she visited Madrid
+          </Popup>
+        </Marker>
+        <Marker position={[-8.256724, 115.24493]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/JM3qyf5GUAsHbhZT8">
+              🇮🇩 Bali Beans <br />
+            </Link>
+            First coffee farm I visited in Bali - small but young, modern and
+            nice. They actually export coffee also to Brno! I bought a package
+            and a coffee candle for my sister
+          </Popup>
+        </Marker>
+        <Marker position={[-8.219879, 115.243203]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/kaSXZUsuJvyviXRaA">
+              🇮🇩 Kopi Langit Bali <br />
+            </Link>
+            Highlight of my Bali trip - randomly visited organic farm with
+            amazing owners, where TVRI just happened to be shooting a
+            documentary and asked me to be in it as well. Got a tour, saw the
+            whole coffee process and also spoke on the national public
+            television. And bought some great coffee, of course!
+          </Popup>
+        </Marker>
+        <Marker position={[59.3420745, 18.0520229]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/si1FPmfaMLWPxhbr8">
+              🇸🇪 Café Pascal <br />
+            </Link>
+            Another great coffee from my sister, which she brought from her trip
+            to Stockholm. We drank it quickly over Christmas with the family
           </Popup>
         </Marker>
       </MarkerClusterGroup>
