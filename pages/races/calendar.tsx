@@ -62,7 +62,7 @@ const upcomingRaces = [
   },
   {
     type: "🏃🏻‍♂️",
-    name: "Běhej lesy Želetná Ruda",
+    name: "Běhej lesy Železná Ruda",
     date: "2025-09-20",
     city: "Železná Ruda",
     country: "🇨🇿",
