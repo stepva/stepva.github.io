@@ -33,6 +33,13 @@ const upcomingRaces = [
     country: "🇦🇹",
   },
   {
+    type: "🏃🏻‍♂️",
+    name: "Běhej lesy Klínovec",
+    date: "2025-07-12",
+    city: "Klínovec",
+    country: "🇨🇿",
+  },
+  {
     type: "🚴🏻‍♂️",
     name: "L'Etape Czech Republic Horská",
     date: "2025-08-02",
@@ -52,6 +59,13 @@ const upcomingRaces = [
     date: "2025-08-31",
     city: "Zell am See",
     country: "🇦🇹",
+  },
+  {
+    type: "🏃🏻‍♂️",
+    name: "Běhej lesy Želetná Ruda",
+    date: "2025-09-20",
+    city: "Železná Ruda",
+    country: "🇨🇿",
   },
   {
     type: "🏃🏻‍♂️",
