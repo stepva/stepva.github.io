@@ -274,6 +274,34 @@ const Map = () => {
             to Stockholm. We drank it quickly over Christmas with the family
           </Popup>
         </Marker>
+        <Marker position={[36.719671, -4.423443]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/Lyz6cgZJzZaG5ofp8">
+              🇪🇸 Next Level <br />
+            </Link>
+            Another great coffee place in Málaga with deicious basque
+            cheesecake. They started selling their beans recently, they are
+            great but a bit more expensive.
+          </Popup>
+        </Marker>
+        <Marker position={[36.723728, -4.422815]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/RVBzq7r66Wc3NmxC7">
+              🇪🇸 Kima Coffee <br />
+            </Link>
+            And another great coffee in Málaga, this one was a new discovery in
+            2025 and quickly became one of the favorites.
+          </Popup>
+        </Marker>
+        <Marker position={[38.723164, -9.133139]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/RVBzq7r66Wc3NmxC7">
+              🇵🇹 Olisipo <br />
+            </Link>
+            At Malabarista Café in Lisbon we bought beans from this local
+            roastery.
+          </Popup>
+        </Marker>
       </MarkerClusterGroup>
     </MapContainer>
   );
