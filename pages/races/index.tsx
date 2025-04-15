@@ -3,8 +3,8 @@ import Image from "next/image";
 import { useState } from "react";
 
 const races = [
-  { type: "Marathons", timesCompleted: 1, bestTime: "3:39:01" },
-  { type: "Half Marathons", timesCompleted: 8, bestTime: "1:29:30" },
+  { type: "Marathons", timesCompleted: 2, bestTime: "3:27:58" },
+  { type: "Half Marathons", timesCompleted: 9, bestTime: "1:29:30" },
   { type: "Half-distance Triathlons", timesCompleted: 1, bestTime: "5:47:11" },
 ];
 
