@@ -84,7 +84,7 @@ export default function Projects() {
         ))}
       </div>
       <div className="text-center mt-10 space-y-6">
-        And 2 shorter triathlons, 2 shorter run races, and 5 road cycling
+        And 2 shorter triathlons, 2 shorter run races, and 6 road cycling
         races...
       </div>
 
