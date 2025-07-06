@@ -307,9 +307,9 @@ const Map = () => {
             <Link href="https://maps.app.goo.gl/9cuH4SQnMjAx7eKx5">
               🇨🇿 Kmen Coffee Roasters <br />
             </Link>
-            Roastery from České Budějovice with a really nice design. Haven't
-            actually visited them but my parents bought this coffee somewhere in
-            Šumava.
+            Roastery from České Budějovice with a really nice design.
+            Haven&apos;t actually visited them but my parents bought this coffee
+            somewhere in Šumava.
           </Popup>
         </Marker>
         <Marker position={[52.5438752, 13.3744751]}>
