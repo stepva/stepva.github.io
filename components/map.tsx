@@ -352,7 +352,6 @@ const Map = () => {
             take back home.
           </Popup>
         </Marker>
-        https://www.google.com/maps/place/IOLITE+COFFEE+ROASTERS/@35.0063705,135.7525294,17z/data=!3m1!4b1!4m6!3m5!1s0x600109c09652c93b:0xf66eb211c782d602!8m2!3d35.0063661!4d135.7551043!16s%2Fg%2F11j0tvkd_b?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D
         <Marker position={[35.0063705, 135.7525294]}>
           <Popup>
             <Link href="https://maps.app.goo.gl/iPPHNnsYKcDtpe8i8">
