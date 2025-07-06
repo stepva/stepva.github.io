@@ -295,11 +295,72 @@ const Map = () => {
         </Marker>
         <Marker position={[38.723164, -9.133139]}>
           <Popup>
-            <Link href="https://maps.app.goo.gl/RVBzq7r66Wc3NmxC7">
+            <Link href="https://maps.app.goo.gl/LCwwhFdRTh5aPyR59">
               🇵🇹 Olisipo <br />
             </Link>
             At Malabarista Café in Lisbon we bought beans from this local
             roastery.
+          </Popup>
+        </Marker>
+        <Marker position={[48.9749825, 14.4840042]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/9cuH4SQnMjAx7eKx5">
+              🇨🇿 Kmen Coffee Roasters <br />
+            </Link>
+            Roastery from České Budějovice with a really nice design. Haven't
+            actually visited them but my parents bought this coffee somewhere in
+            Šumava.
+          </Popup>
+        </Marker>
+        <Marker position={[52.5438752, 13.3744751]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/w4ZkeRu3S7jyn2py5">
+              🇩🇪 Flying Roasters <br />
+            </Link>
+            Coffee I bought during my weekend in Berlin for the half marathon.
+            The cafe is a bit out of center but worth visiting. And I believe
+            the beans were surprisingly cheap?
+          </Popup>
+        </Marker>
+        <Marker position={[50.8415403, 4.3694843]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/8TRQFhoDnFEs5auZ8">
+              🇧🇪 Wide Awake <br />
+            </Link>
+            While in Brussels for the European Running Championships marathon, I
+            went to Nine Coffee and bought beans from this local roastery.
+          </Popup>
+        </Marker>
+        <Marker position={[35.7136118, 139.7737956]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/WoseUVkMbLAAKFdH9">
+              🇯🇵 Social Good Roasters <br />
+            </Link>
+            First coffee bought in Japan, from Social Good Roasters, in the Ueno
+            Station before going to the Tokyo National Museum. Coffee was okay,
+            added support for people with disabilities very nice!
+          </Popup>
+        </Marker>
+        <Marker position={[34.7012751, 135.4953067]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/P9XwRwHkdhqZogqA8">
+              🇯🇵 Tashiro Coffee Roasters <br />
+            </Link>
+            Tashiro stand in the mall was our first stop during our Osaka day. I
+            bought a blend from them, quite dark but good. And I really like
+            that they sell 100g bags everywhere, makes it easy to buy beans to
+            take back home.
+          </Popup>
+        </Marker>
+        https://www.google.com/maps/place/IOLITE+COFFEE+ROASTERS/@35.0063705,135.7525294,17z/data=!3m1!4b1!4m6!3m5!1s0x600109c09652c93b:0xf66eb211c782d602!8m2!3d35.0063661!4d135.7551043!16s%2Fg%2F11j0tvkd_b?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D
+        <Marker position={[35.0063705, 135.7525294]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/iPPHNnsYKcDtpe8i8">
+              🇯🇵 Iolite Coffee Roasters <br />
+            </Link>
+            Small shop in Kyoto with a lot of coffee options. I bought a special
+            edition beans with added cinnamon during the processing, and the
+            coffee tasted amazing. Really good!
           </Popup>
         </Marker>
       </MarkerClusterGroup>
