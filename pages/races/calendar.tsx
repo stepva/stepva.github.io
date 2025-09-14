@@ -6,34 +6,6 @@ import { useState, useEffect } from "react";
 const upcomingRaces = [
   {
     type: "🏃🏻‍♂️",
-    name: "Běhej lesy Klínovec",
-    date: "2025-07-12",
-    city: "Klínovec",
-    country: "🇨🇿",
-  },
-  {
-    type: "🚴🏻‍♂️",
-    name: "L'Etape Czech Republic Horská",
-    date: "2025-08-02",
-    city: "Prachatice",
-    country: "🇨🇿",
-  },
-  {
-    type: "🔱",
-    name: "5150 Hradec Králové",
-    date: "2025-08-17",
-    city: "Hradec Králové",
-    country: "🇨🇿",
-  },
-  {
-    type: "🔱",
-    name: "IRONMAN 70.3 Zell am See-Kaprun",
-    date: "2025-08-31",
-    city: "Zell am See",
-    country: "🇦🇹",
-  },
-  {
-    type: "🏃🏻‍♂️",
     name: "Běhej lesy Železná Ruda",
     date: "2025-09-20",
     city: "Železná Ruda",

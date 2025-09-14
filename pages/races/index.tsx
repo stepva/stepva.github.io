@@ -5,7 +5,7 @@ import { useState } from "react";
 const races = [
   { type: "Marathons", timesCompleted: 2, bestTime: "3:27:58" },
   { type: "Half Marathons", timesCompleted: 9, bestTime: "1:29:30" },
-  { type: "Half-distance Triathlons", timesCompleted: 1, bestTime: "5:47:11" },
+  { type: "Half-distance Triathlons", timesCompleted: 2, bestTime: "5:31:53" },
 ];
 
 export default function Projects() {
@@ -84,8 +84,8 @@ export default function Projects() {
         ))}
       </div>
       <div className="text-center mt-10 space-y-6">
-        And 2 shorter triathlons, 2 shorter run races, and 6 road cycling
-        races...
+        And 3 shorter triathlons, 1 trail running race, 2 shorter road running
+        races, and 7 road cycling races...
       </div>
 
       <div className="flex justify-center items-center mt-10 mb-5">

@@ -362,6 +362,26 @@ const Map = () => {
             coffee tasted amazing. Really good!
           </Popup>
         </Marker>
+        <Marker position={[51.1125933, 17.0255239]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/5NqAEy3YpSnXCzsb9">
+              🇵🇱 El Gato <br />
+            </Link>
+            Roasters from Wroclaw where my parents went for a short vacation and
+            came back with two bags of good coffee beans.
+          </Popup>
+        </Marker>
+        <Marker position={[50.2101408, 15.8316011]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/i6Se8JTtdXab6vNn9">
+              🇯🇵 Chroast <br />
+            </Link>
+            I have known about Chroast for a while and finally got to try them
+            during the Ironman weekend in Hradec Králové in 2025. My dad went
+            ahead and picked some beans which we brought back home after I
+            finished the 5150 triathlon.
+          </Popup>
+        </Marker>
       </MarkerClusterGroup>
     </MapContainer>
   );

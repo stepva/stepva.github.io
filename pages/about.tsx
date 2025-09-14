@@ -25,22 +25,20 @@ export default function About() {
 
       <div className="justify-center items-center flex flex-1 text-justify">
         <p className="sm:text-xl text-lg max-w-2xl leading-relaxed">
-          I have finished my Master&apos;s degree in Quantitative Finance in
-          Vienna last year after having completed a BSc. in Economics in the UK.
-          I&apos;m working as a Quant / Python Developer / Data Engineer in a
-          perhaps morally questionable, but definitely interesting, booming and
-          fun industry - esports betting.
-          <br /> In my free time, I aspire to become a hybrid athlete. I enjoy
-          working out at the gym, as well as cycling, running and swimming - I
-          completed my first Ironman 70.3 this summer, and it was amazing! I try
-          to read a lot and I listen to podcasts way too much. Oh, and I also
-          fell in love with specialty coffee, so consider part of this website
-          to be my personal coffee diary. <br />
-          I like to call myself a data barista - I think that data and coffee
-          have a lot in common. One has to take care of its data just like
-          farmers do with coffee beans, so that they can brew a delicious
-          analysis out of it.
-          <br />
+          After having completed a BSc. in Economics at the University of
+          Warwick, UK, I proceeded with my Master&apos;s degree in Quantitative
+          Finance in Vienna at WU. I returned back to Prague to continue working
+          in a perhaps morally questionable, but definitely interesting, booming
+          and fun industry - esports betting, where I&apos;m currently leading a
+          team of quants and developers responsible for developing predictive
+          mathematical models.
+          <br /> In my free time, you can usually find me either eating,
+          sleeping or training. I enjoy working out at the gym, as well as
+          cycling, running and swimming, regularly pushing myself at marathons,
+          triathlons or other race events. I try to read a lot and I listen to
+          podcasts way too much. Oh, and I also fell in love with specialty
+          coffee, so consider part of this website to be my personal coffee
+          diary. <br />
           Next to my favorite coffee roasteries, you&apos;d ideally find here
           some interesting articles on my blog and an overview of my projects as
           well as my accomplishments and plans when it comes to races. But
