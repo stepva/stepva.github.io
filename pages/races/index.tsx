@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const races = [
   { type: "Marathons", timesCompleted: 2, bestTime: "3:27:58" },
-  { type: "Half Marathons", timesCompleted: 9, bestTime: "1:29:30" },
+  { type: "Half Marathons", timesCompleted: 10, bestTime: "1:26:39" },
   { type: "Half-distance Triathlons", timesCompleted: 2, bestTime: "5:31:53" },
 ];
 
@@ -30,13 +30,14 @@ export default function Projects() {
 
       <div className="flex justify-center items-end text-justify mt-3 sm:mt-6">
         <p className="max-w-2xl">
-          I love sports - particularly running, cycling and swimming, which is
-          how I got into triathlons. Even though I&apos;m not necessarily very
-          competitive when it comes to others, I enjoy pushing myself and seeing
-          how far I can go and what my body can do. That&apos;s why I really
-          enjoy racing as well - I take it as a challenge with a set goal,
-          whether it is just finishing or a new personal best time. And, truth
-          be told, I really like colecting finisher medals! <br />
+          I love sports - particularly running, cycling and (somewhat) swimming,
+          which is how I got into triathlons. Even though I&apos;m not
+          necessarily very competitive when it comes to others, I enjoy pushing
+          myself and seeing how far I can go and what my body can do.
+          That&apos;s why I really enjoy racing as well - I take it as a
+          challenge with a set goal, whether it is just finishing or a new
+          personal best time. And, truth be told, I really like colecting
+          finisher medals! <br />
           Below you can see some of my accomplishments which I&apos;m most proud
           of, as well as an up-to-date race calender of all the races I&apos;m
           signed up for currently and looking forward to!
@@ -84,7 +85,7 @@ export default function Projects() {
         ))}
       </div>
       <div className="text-center mt-10 space-y-6">
-        And 3 shorter triathlons, 1 trail running race, 2 shorter road running
+        And 3 shorter triathlons, 2 trail running races, 3 shorter road running
         races, and 7 road cycling races...
       </div>
 

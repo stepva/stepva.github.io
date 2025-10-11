@@ -6,27 +6,6 @@ import { useState, useEffect } from "react";
 const upcomingRaces = [
   {
     type: "🏃🏻‍♂️",
-    name: "Běhej lesy Železná Ruda",
-    date: "2025-09-20",
-    city: "Železná Ruda",
-    country: "🇨🇿",
-  },
-  {
-    type: "🏃🏻‍♂️",
-    name: "Běchovice - Praha",
-    date: "2025-09-28",
-    city: "Prague",
-    country: "🇨🇿",
-  },
-  {
-    type: "🏃🏻‍♂️",
-    name: "Cardiff Half Marathon",
-    date: "2025-10-05",
-    city: "Cardiff",
-    country: "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
-  },
-  {
-    type: "🏃🏻‍♂️",
     name: "Athens Marathon. The Authentic",
     date: "2025-11-09",
     city: "Athens",
@@ -38,6 +17,27 @@ const upcomingRaces = [
   //   date: "2026-03-22",
   //   city: "Rome",
   //   country: "🇮🇹",
+  // },
+  // {
+  //   type: "🚴🏻‍♂️",
+  //   name: "Mallorca 312",
+  //   date: "2026-04-25",
+  //   city: "Mallorca",
+  //   country: "🇪🇸",
+  // },
+  // {
+  //   type: "🔱",
+  //   name: "CZECHMAN",
+  //   date: "2026-06-06",
+  //   city: "Dolany",
+  //   country: "🇨🇿",
+  // },
+  // {
+  //   type: "🏃🏻‍♂️",
+  //   name: "Běchovice - Praha",
+  //   date: "2026-09-27",
+  //   city: "Praha",
+  //   country: "🇨🇿",
   // },
   // Add more races as needed
 ];
