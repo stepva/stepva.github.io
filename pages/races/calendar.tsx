@@ -6,39 +6,46 @@ import { useState, useEffect } from "react";
 const upcomingRaces = [
   {
     type: "🏃🏻‍♂️",
-    name: "Athens Marathon. The Authentic",
-    date: "2025-11-09",
-    city: "Athens",
-    country: "🇬🇷",
+    name: "Run Rome The Marathon",
+    date: "2026-03-22",
+    city: "Rome",
+    country: "🇮🇹",
   },
-  // {
-  //   type: "🏃🏻‍♂️",
-  //   name: "Run Rome The Marathon",
-  //   date: "2026-03-22",
-  //   city: "Rome",
-  //   country: "🇮🇹",
-  // },
-  // {
-  //   type: "🚴🏻‍♂️",
-  //   name: "Mallorca 312",
-  //   date: "2026-04-25",
-  //   city: "Mallorca",
-  //   country: "🇪🇸",
-  // },
-  // {
-  //   type: "🔱",
-  //   name: "CZECHMAN",
-  //   date: "2026-06-06",
-  //   city: "Dolany",
-  //   country: "🇨🇿",
-  // },
-  // {
-  //   type: "🏃🏻‍♂️",
-  //   name: "Běchovice - Praha",
-  //   date: "2026-09-27",
-  //   city: "Praha",
-  //   country: "🇨🇿",
-  // },
+  {
+    type: "🚴🏻‍♂️",
+    name: "Mallorca 312",
+    date: "2026-04-25",
+    city: "Mallorca",
+    country: "🇪🇸",
+  },
+  {
+    type: "🏃🏻‍♂️",
+    name: "Vltava Run",
+    date: "2026-05-09",
+    city: "Vltava",
+    country: "🇨🇿",
+  },
+  {
+    type: "🔱",
+    name: "CZECHMAN",
+    date: "2026-06-06",
+    city: "Dolany",
+    country: "🇨🇿",
+  },
+  {
+    type: "🏃🏻‍♂️",
+    name: "Běchovice - Praha",
+    date: "2026-09-27",
+    city: "Praha",
+    country: "🇨🇿",
+  },
+  {
+    type: "🔱",
+    name: "IRONMAN 70.3 Portugal-Cascais",
+    date: "2026-10-17",
+    city: "Cascais",
+    country: "🇵🇹",
+  },
   // Add more races as needed
 ];
 
