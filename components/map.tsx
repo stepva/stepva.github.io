@@ -374,12 +374,34 @@ const Map = () => {
         <Marker position={[50.2101408, 15.8316011]}>
           <Popup>
             <Link href="https://maps.app.goo.gl/i6Se8JTtdXab6vNn9">
-              🇯🇵 Chroast <br />
+              🇨🇿 Chroast <br />
             </Link>
             I have known about Chroast for a while and finally got to try them
             during the Ironman weekend in Hradec Králové in 2025. My dad went
             ahead and picked some beans which we brought back home after I
             finished the 5150 triathlon.
+          </Popup>
+        </Marker>
+        <Marker position={[40.4198012, -3.7046409]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/UN6xT6rJRKgzPHym7">
+              🇪🇸 BUNA <br />
+            </Link>
+            When my parents and my sister went to Madrid for the election
+            weekend, they discovered this roastery and cafe and visited it every
+            day. Naturally, the brought back home some good beans, which they
+            even got in an unmarked bag from their new barista friend.
+          </Popup>
+        </Marker>
+        <Marker position={[37.9939099, 23.7630853]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/Fdwq1eQfJokEmx9X6">
+              🇬🇷 Samba <br />
+            </Link>
+            I went to Athens for more than a week to run the Authentic Marathon
+            and while there, I discovered this cafe close to where we stayed.
+            Good coffee and more importantly beautiful cups - I brought one home
+            and one as a gift. And beans, of course.
           </Popup>
         </Marker>
       </MarkerClusterGroup>

@@ -34,6 +34,13 @@ const upcomingRaces = [
   },
   {
     type: "🏃🏻‍♂️",
+    name: "WRRC Copenhagen Half",
+    date: "2026-09-20",
+    city: "Copenhagen",
+    country: "🇩🇰",
+  },
+  {
+    type: "🏃🏻‍♂️",
     name: "Běchovice - Praha",
     date: "2026-09-27",
     city: "Praha",
