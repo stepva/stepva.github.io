@@ -12,6 +12,13 @@ const upcomingRaces = [
     country: "🇮🇹",
   },
   {
+    type: "🏃🏻‍♂️",
+    name: "Běhej lesy Karlštejn",
+    date: "2026-04-11",
+    city: "Vltava",
+    country: "🇨🇿",
+  },
+  {
     type: "🚴🏻‍♂️",
     name: "Mallorca 312",
     date: "2026-04-25",
@@ -22,6 +29,13 @@ const upcomingRaces = [
     type: "🏃🏻‍♂️",
     name: "Vltava Run",
     date: "2026-05-09",
+    city: "Vltava",
+    country: "🇨🇿",
+  },
+  {
+    type: "🏃🏻‍♂️",
+    name: "Běhej lesy Brdy",
+    date: "2026-05-23",
     city: "Vltava",
     country: "🇨🇿",
   },
