@@ -6,13 +6,6 @@ import { useState, useEffect } from "react";
 const upcomingRaces = [
   {
     type: "🏃🏻‍♂️",
-    name: "Run Rome The Marathon",
-    date: "2026-03-22",
-    city: "Rome",
-    country: "🇮🇹",
-  },
-  {
-    type: "🏃🏻‍♂️",
     name: "Běhej lesy Karlštejn",
     date: "2026-04-11",
     city: "Vltava",
