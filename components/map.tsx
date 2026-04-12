@@ -404,6 +404,35 @@ const Map = () => {
             and one as a gift. And beans, of course.
           </Popup>
         </Marker>
+        <Marker position={[50.0767974, 14.4407602]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/YQcKyYfJh316Mf6u5">
+              🇨🇿 La Bohème Café <br />
+            </Link>
+            My father discovered this one in Prague and brought home some beans.
+            The coffee was delicious, but apparently they are a bit more pricey.
+          </Popup>
+        </Marker>
+        <Marker position={[50.8742135, -0.0050033]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/y5HgPqRjUST755oTA">
+              🇬🇧 Carafe <br />
+            </Link>
+            While visiting friends in London, we went on a random daytrip to
+            Lewes. And discovered this gem! Great coffee, nice café, delicous
+            snacks, and we all bought beans for back home.
+          </Popup>
+        </Marker>
+        <Marker position={[51.487811, -0.0973397]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/LMLjHmfnj7ppJgG5A">
+              🇬🇧 Hermanos <br />
+            </Link>
+            Colombian coffee roasters I discovered after my first Parkrun.
+            Really nice, all about Colombia, and they give you free coffee when
+            you buy beans!
+          </Popup>
+        </Marker>
       </MarkerClusterGroup>
     </MapContainer>
   );
