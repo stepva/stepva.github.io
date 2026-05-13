@@ -85,10 +85,12 @@ export default function Projects() {
         ))}
       </div>
       <div className="flex justify-center items-end text-justify mt-3 sm:mt-6">
-        And 3 shorter triathlons (such as the 5150 Hradec Králové), 3 shorter
-        road running races (Praha-Běchovice), 2 trail running races (Běhej
-        lesy), 8 road cycling races (like the Mallorca 312) and 1 crazy relay
-        running race (Vltava Run)...
+        <p className="max-w-2xl">
+          And 3 shorter triathlons (such as the 5150 Hradec Králové), 3 shorter
+          road running races (Praha-Běchovice), 2 trail running races (Běhej
+          lesy), 8 road cycling races (like the Mallorca 312) and 1 crazy relay
+          running race (Vltava Run)...
+        </p>
       </div>
 
       <div className="flex justify-center items-center mt-10 mb-5">
