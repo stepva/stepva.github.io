@@ -433,6 +433,26 @@ const Map = () => {
             you buy beans!
           </Popup>
         </Marker>
+        <Marker position={[39.8729348, 3.0164124]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/CMUy5AaFxSQGZo5v5">
+              🇪🇸 La Molienda <br />
+            </Link>
+            Spent a week cycling on Mallorca so naturally I also had to explore
+            the coffee scene and bring home coffee from local roasteries. We
+            visited this one in Pollenca, near where we stayed.
+          </Popup>
+        </Marker>
+        <Marker position={[39.5773354, 2.6476518]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/L47JWLpU1bzGH1NU9">
+              🇪🇸 Mistral <br />
+            </Link>
+            Second local roastery I visited on Mallorca, this time while on a
+            cycling trip around Palma. It took me a while to find it while
+            trying to catch the train back to the villa, but it was worth it.
+          </Popup>
+        </Marker>
       </MarkerClusterGroup>
     </MapContainer>
   );
