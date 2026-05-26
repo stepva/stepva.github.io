@@ -38,11 +38,7 @@ export default function About() {
           triathlons or other race events. I try to read a lot and I listen to
           podcasts way too much. Oh, and I also fell in love with specialty
           coffee, so consider part of this website to be my personal coffee
-          diary. <br />
-          Next to my favorite coffee roasteries, you&apos;d ideally find here
-          some interesting articles on my blog and an overview of my projects as
-          well as my accomplishments and plans when it comes to races. But
-          honestly, I&apos;m mainly doing this to learn webdev.
+          diary. 
         </p>
       </div>
 
