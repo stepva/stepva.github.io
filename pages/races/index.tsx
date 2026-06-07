@@ -39,7 +39,7 @@ export default function Projects() {
           personal best time. And, truth be told, I really like colecting
           finisher medals! <br />
           Below you can see some of my accomplishments which I&apos;m most proud
-          of, as well as an up-to-date race calender of all the races I&apos;m
+          of, my full race history, as well as an up-to-date race calender of all the races I&apos;m
           signed up for currently and looking forward to!
         </p>
       </div>
@@ -93,13 +93,21 @@ export default function Projects() {
         </p>
       </div>
 
-      <div className="flex justify-center items-center mt-10 mb-5">
+      <div className="flex justify-center items-center mt-10 mb-5 space-x-8">
         <p className="text-2xl hover:font-bold">
           <Link
             href="/races/calendar"
             className="hover:font-bold transition-opacity"
           >
             My race calendar
+          </Link>
+        </p>
+        <p className="text-2xl hover:font-bold">
+          <Link
+            href="/races/history"
+            className="hover:font-bold transition-opacity"
+          >
+            My race history
           </Link>
         </p>
       </div>

@@ -97,7 +97,7 @@ export default function Projects() {
               {/* Second row: Date on the right, countdown on the left */}
               <div className="flex justify-between">
                 <p className="text-gray-500">
-                  {race.city}, {race.country}
+                  {race.city} {race.country}
                 </p>
                 <div className="flex flex-row">
                   <p className="text-gray-500">
