@@ -38,7 +38,15 @@ export default function About() {
           triathlons or other race events. I try to read a lot and I listen to
           podcasts way too much. Oh, and I also fell in love with specialty
           coffee, so consider part of this website to be my personal coffee
-          diary. 
+          diary.
+        </p>
+      </div>
+
+      <div className="flex justify-center">
+        <p className="text-xl hover:font-bold">
+          <Link href="/cv" className="transition-opacity">
+            My CV
+          </Link>
         </p>
       </div>
 

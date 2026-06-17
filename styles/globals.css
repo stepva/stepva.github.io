@@ -1,3 +1,62 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ── Print / "Download PDF" styles (used by /cv) ──────────────────────────
+   When the page is printed (or saved as PDF) the CV is compacted so it fits
+   on exactly one A4 page: hide `.no-print` chrome, force white bg / black
+   text, and tighten the (deliberately roomy on-screen) spacing.
+
+   👉 If editing the CV pushes it onto a second page, lower `font-size` below
+      (every size on the page is rem-based, so this single value scales the
+      whole sheet) or trim a bullet. At 15px the current CV is ~990px tall vs.
+      ~1025px of usable A4 height — about 35px of headroom. */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  html,
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+  @page {
+    size: A4;
+    margin: 13mm;
+  }
+
+  /* One knob to scale the entire CV (rem-based sizing). */
+  html {
+    font-size: 13px;
+  }
+
+  /* Tighten the on-screen spacing for a dense, single-page print. */
+  .cv-sheet {
+    line-height: 1.32 !important;
+  }
+  .cv-sheet > section + section {
+    margin-top: 11px !important;
+  }
+  .cv-sheet .space-y-5 > * + * {
+    margin-top: 7px !important;
+  }
+  .cv-sheet .space-y-1 > * + * {
+    margin-top: 1px !important;
+  }
+  .cv-sheet ul {
+    margin-top: 2px !important;
+  }
+  .cv-sheet li {
+    margin-top: 1px !important;
+  }
+  .cv-sheet h2 {
+    margin-bottom: 3px !important;
+    padding-bottom: 1px !important;
+  }
+  .cv-sheet .mt-3 {
+    margin-top: 5px !important;
+  }
+  .cv-sheet .mt-1 {
+    margin-top: 2px !important;
+  }
+}
