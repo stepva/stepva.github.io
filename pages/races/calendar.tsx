@@ -25,6 +25,13 @@ const upcomingRaces = [
     city: "Cascais",
     country: "🇵🇹",
   },
+  {
+    type: "🏃🏻‍♂️",
+    name: "Halong Bay Heritage (Half) Marathon",
+    date: "2026-11-22",
+    city: "Ha Long",
+    country: "🇻🇳",
+  },
   // {
   //   type: "🏃🏻‍♂️",
   //   name: "Milano Marathon",
