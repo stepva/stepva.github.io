@@ -453,6 +453,38 @@ const Map = () => {
             trying to catch the train back to the villa, but it was worth it.
           </Popup>
         </Marker>
+        <Marker position={[51.5008462,-0.087288]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/JEDbxP6vjvT5HSUf8">
+              🇬🇧 WatchHouse <br />
+            </Link>
+            While on a work event in London, I wanted to try some new coffee place and I ended up visiting this WatchHouse branch. Very nice, quite fancy-ish, and I bought a really good coffee - from China! That was a first.
+          </Popup>
+        </Marker>
+        <Marker position={[45.184207,5.6376003]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/J86hscRHuz8ztKA8A">
+              🇫🇷 Café Chulo <br />
+            </Link>
+            When visiting my friends in Grenoble for the Tour de France and cycling, I found this gem outside of the center. Had an amazing chat with the barista who, just like all coffee they roast and serve, comes from Guatemala.
+          </Popup>
+        </Marker>
+        <Marker position={[46.2074746,6.1434971]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/FyJdnVb2GrJLTZqx8">
+              🇨🇭 Café Calico <br />
+            </Link>
+            Before taking a flight from Geneva (which actually ended up being cancelled), I decided to try this relatively new and very modern place. It was nice, sadly they don't roast themselves, but I got their espresso housebland prepared by a roastery in Zürich.
+          </Popup>
+        </Marker>
+        <Marker position={[47.557939,7.5880102]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/vWtMgiwRXcjgQcep6">
+              🇨🇭 ViCAFE <br />
+            </Link>
+            Forced to spend a day in Basel because of a canceled flight, I at least used the time to visit a nice local roastery. They do 350g bags, crazy.
+          </Popup>
+        </Marker>
       </MarkerClusterGroup>
     </MapContainer>
   );
