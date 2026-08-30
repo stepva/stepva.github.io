@@ -474,7 +474,7 @@ const Map = () => {
             <Link href="https://maps.app.goo.gl/FyJdnVb2GrJLTZqx8">
               🇨🇭 Café Calico <br />
             </Link>
-            Before taking a flight from Geneva (which actually ended up being cancelled), I decided to try this relatively new and very modern place. It was nice, sadly they don't roast themselves, but I got their espresso housebland prepared by a roastery in Zürich.
+            Before taking a flight from Geneva (which actually ended up being cancelled), I decided to try this relatively new and very modern place. It was nice, sadly they don&apos;t roast themselves, but I got their espresso housebland prepared by a roastery in Zürich.
           </Popup>
         </Marker>
         <Marker position={[47.557939,7.5880102]}>
