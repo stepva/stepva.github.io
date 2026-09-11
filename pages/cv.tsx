@@ -44,7 +44,7 @@ const experience = [
         bullets: [
           "Leading teams of quants, mathematicians and Python developers responsible for predictive mathematical models and their end-to-end implementation.",
           "Focusing on hiring, planning, delivery and day-to-day operations across nine projects and products.",
-          "Grew the headcount from 3 to 9 people while staying hands-on on the technical level with active code reviews, software development and decision making.",
+          "Grew the headcount from 3 to 11 people while staying hands-on on the technical level with active code reviews, software development and decision making.",
         ],
       },
       {
