@@ -35,6 +35,7 @@ const pastRaces = [
   { type: "🔱", name: "Triatlon Horní Počernice", date: "2022-07-31", city: "Prague", country: "🇨🇿", finishTime: "1:35:58", distance: "750m - 20km - 5km" },
 
   // ── Shorter road running races ────────────────────────────
+  { type: "🏃🏻‍♂️", name: "Birell 10K Night Race Prague", date: "2026-09-05", city: "Prague", country: "🇨🇿", finishTime: "39:54", distance: "10km" },
   { type: "🏃🏻‍♂️", name: "Běchovice-Praha \#129", date: "2025-09-28", city: "Prague", country: "🇨🇿", finishTime: "39:52", distance: "10km" },
   { type: "🏃🏻‍♂️", name: "Běchovice-Praha \#127", date: "2023-09-24", city: "Prague", country: "🇨🇿", finishTime: "46:26", distance: "10km" },
   { type: "🏃🏻‍♂️", name: "Běchovice-Praha \#126", date: "2022-09-25", city: "Prague", country: "🇨🇿", finishTime: "49:11", distance: "10km" },
