@@ -29,6 +29,9 @@ them until you actually open a CMS-backed page.
 - Page `<title>` is set by rendering a bare `<title>` element inside the page component
   (this codebase's pattern), not via `next/head`.
 - React `react-icons` (`fa`) and `@heroicons/react` are used for icons.
+- **Never write a literal apostrophe (`'`) in JSX text** — `next lint` (`react/no-unescaped-entities`)
+  fails the build. Write `&apos;` instead, e.g. `Štěpán&apos;s races`, `I&apos;m`. Same goes for
+  literal `"` in JSX text (`&quot;`). Inside string attributes/data arrays a plain `'` is fine.
 
 ### Page layout pattern
 Every sub-page follows the same shape — copy an existing page when adding one:

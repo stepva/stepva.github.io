@@ -13,6 +13,7 @@ const pastRaces = [
   { type: "🏃🏻‍♂️", name: "Run Rome The Marathon", date: "2026-03-22", city: "Rome", country: "🇮🇹", finishTime: "3:07:54", distance: "42.2km" },
 
   // ── Half Marathons ────────────────────────
+  { type: "🏃🏻‍♂️", name: "WRRC Copenhagen Half", date: "2026-09-20", city: "Copenhagen", country: "🇩🇰", finishTime: "1:28:07", distance: "21.1km" },
   { type: "🏃🏻‍♂️", name: "LCC-Wien Int. Herbst(halb)marathon", date: "2022-10-09", city: "Vienna", country: "🇦🇹", finishTime: "1:42:29", distance: "21.1km" },
   { type: "🏃🏻‍♂️", name: "40. VCM - Wiener Städtische Halbmarathon", date: "2023-04-23", city: "Vienna", country: "🇦🇹", finishTime: "1:45:03", distance: "21.1km" },
   { type: "🏃🏻‍♂️", name: "1/2Maraton Praha", date: "2024-04-06", city: "Prague", country: "🇨🇿", finishTime: "1:33:41", distance: "21.1km" },
