@@ -61,6 +61,23 @@ const pastRaces = [
   { type: "🏃🏻‍♂️", name: "Vltava Run", date: "2026-05-09", city: "Zadov - Prague", country: "🇨🇿", finishTime: "34:00:06", distance: "375km relay (42km)" },
 ];
 
+// ⬇️ Standardized distances that count for personal bests, matched against
+//    each race's `distance` string. Races at any other distance (trail,
+//    cycling, relay, sprint/olympic tri, ...) never get a PB border.
+const pbDistances = [
+  "10km", // road 10K
+  "21.1km", // half marathon
+  "42.2km", // marathon
+  "1.9km - 90km - 21.1km", // half ironman
+];
+
+// "3:07:54" / "39:46" -> seconds; "DNF" etc. -> NaN
+const timeToSeconds = (t: string) => {
+  const parts = t.split(":").map(Number);
+  if (parts.length < 2 || parts.some(isNaN)) return NaN;
+  return parts.reduce((acc, n) => acc * 60 + n, 0);
+};
+
 // Treat empty/invalid dates as oldest so unfilled rows sit at the bottom.
 const dateValue = (d: string) => {
   const t = new Date(d).getTime();
@@ -69,8 +86,32 @@ const dateValue = (d: string) => {
 
 // Sort most-recent first
 const sortedRaces = [...pastRaces].sort(
-  (a, b) => dateValue(b.date) - dateValue(a.date)
+  (a, b) => dateValue(b.date) - dateValue(a.date),
 );
+
+// Walk each standardized distance chronologically: a race is a PB if it beat
+// every earlier result at that distance. The last PB per distance is the
+// current one. Updates automatically as new results are added.
+const pbKeys = new Set<string>(); // every PB at the time it was set
+const currentPbKeys = new Set<string>(); // the standing PB per distance
+const raceKey = (r: { date: string; name: string }) => `${r.date}-${r.name}`;
+
+pbDistances.forEach((distance) => {
+  let best = Infinity;
+  let currentKey: string | null = null;
+  [...pastRaces]
+    .filter((r) => r.distance === distance)
+    .sort((a, b) => dateValue(a.date) - dateValue(b.date))
+    .forEach((r) => {
+      const secs = timeToSeconds(r.finishTime);
+      if (secs < best) {
+        best = secs;
+        currentKey = raceKey(r);
+        pbKeys.add(currentKey);
+      }
+    });
+  if (currentKey) currentPbKeys.add(currentKey);
+});
 
 // Count races per type, preserving first-appearance order
 const countsByType = pastRaces.reduce((acc, race) => {
@@ -101,31 +142,47 @@ export default function RaceHistory() {
         <h1 className="text-3xl font-bold mb-2">Race History</h1>
 
         <ul className="w-full max-w-md md:max-w-xl space-y-4">
-          {sortedRaces.map((race) => (
-            <li
-              key={`${race.date}-${race.name}`}
-              className="p-4 bg-gray-100 rounded-lg shadow-md"
-            >
-              {/* First row: type + name on the left, finish time on the right */}
-              <div className="flex flex-col md:flex-row md:justify-between">
-                <h2 className="text-xl font-semibold dark:text-black">
-                  {race.type} {race.name}
-                </h2>
-                <p className="text-gray-700 md:ml-4">🏁 {race.finishTime}</p>
-              </div>
+          {sortedRaces.map((race) => {
+            const key = raceKey(race);
+            const isCurrentPb = currentPbKeys.has(key);
+            const isPb = pbKeys.has(key);
+            // Current PB: double gold border. Past PB: single gold border.
+            const border = isCurrentPb
+              ? "border-[6px] border-double border-yellow-500"
+              : isPb
+                ? "border-2 border-yellow-400"
+                : "border-2 border-transparent";
+            return (
+              <li
+                key={key}
+                className={`p-4 bg-gray-100 rounded-lg shadow-md ${border}`}
+              >
+                {/* First row: type + name on the left, finish time on the right */}
+                <div className="flex flex-col md:flex-row md:justify-between">
+                  <h2 className="text-xl font-semibold dark:text-black">
+                    {race.type} {race.name}
+                  </h2>
+                  <p className="text-gray-700 md:ml-4">
+                    🏁 {race.finishTime}
+                    {isCurrentPb && (
+                      <span title="Current personal best"> 🏆</span>
+                    )}
+                  </p>
+                </div>
 
-              {/* Second row: date left, location middle, distance right.
+                {/* Second row: date left, location middle, distance right.
                   Equal-width grid columns keep the location centered in the
                   tile regardless of date/distance length. */}
-              <div className="grid grid-cols-3 items-center">
-                <p className="text-gray-700 text-left">{race.date}</p>
-                <p className="text-gray-500 text-center">
-                  {race.city} {race.country}
-                </p>
-                <p className="text-gray-700 text-right">{race.distance}</p>
-              </div>
-            </li>
-          ))}
+                <div className="grid grid-cols-3 items-center">
+                  <p className="text-gray-700 text-left">{race.date}</p>
+                  <p className="text-gray-500 text-center">
+                    {race.city} {race.country}
+                  </p>
+                  <p className="text-gray-700 text-right">{race.distance}</p>
+                </div>
+              </li>
+            );
+          })}
         </ul>
 
         {/* Summary: total race count and a count per type */}
