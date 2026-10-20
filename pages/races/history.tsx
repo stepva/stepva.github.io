@@ -29,6 +29,7 @@ const pastRaces = [
   { type: "🔱", name: "IRONMAN 70.3 Hradec Králové", date: "2024-10-18", city: "Hradec Králové", country: "🇨🇿", finishTime: "5:47:11", distance: "1.9km - 90km - 21.1km" },
   { type: "🔱", name: "IRONMAN 70.3 Zell am See-Kaprun", date: "2025-08-31", city: "Zell am See", country: "🇦🇹", finishTime: "5:31:53", distance: "1.9km - 90km - 21.1km" },
   { type: "🔱", name: "CZECHMAN", date: "2026-06-06", city: "Dolany", country: "🇨🇿", finishTime: "5:06:57", distance: "1.9km - 90km - 21.1km" },
+  { type: "🔱", name: "IRONMAN 70.3 Portugal-Cascais", date: "2026-10-17", city: "Cascais", country: "🇵🇹", finishTime: "5:24:07", distance: "1.9km - 90km - 21.1km" },
 
   // ── Shorter Triathlons ────────────────────────────────────
   { type: "🔱", name: "5150 Hradec Králové", date: "2025-08-17", city: "Hradec Králové", country: "🇨🇿", finishTime: "2:40:47", distance: "1.5km - 40km - 10km" },
