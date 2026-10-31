@@ -485,6 +485,38 @@ const Map = () => {
             Forced to spend a day in Basel because of a canceled flight, I at least used the time to visit a nice local roastery. They do 350g bags, crazy.
           </Popup>
         </Marker>
+        <Marker position={[49.4329051,14.0038676]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/2JCx2LvAaikFrqCW8">
+              🇨🇿 No Brand Roastery <br />
+            </Link>
+            We discovered a gem of a café called Větev in Mirotice, where they also roast their funky looking coffee and sell amazing sirups.
+          </Popup>
+        </Marker>
+        <Marker position={[55.6786998,12.5667117]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/atPhQQHvfb3TJgXD7">
+              🇩🇰 ROAST Coffee <br />
+            </Link>
+            While in Copenhagen for the WRRC half marathon, we went to this coffee and brought home beans which were actually delicious in Aeropress.
+          </Popup>
+        </Marker>
+        <Marker position={[49.8416412,24.0302168]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/TiUSL8yuCcgCx8pb8">
+              🇺🇦 Lviv Coffee Mine <br />
+            </Link>
+            I haven&apos;t been to Ukraine yet, but when my friend went there for a wedding, she brought me back this cute package of coffee for girlfriends.
+          </Popup>
+        </Marker>
+        <Marker position={[38.8400908,-9.3720513]}>
+          <Popup>
+            <Link href="https://maps.app.goo.gl/cB4yFo7hXRGon7TJ6">
+              🇵🇹 Fábrica <br />
+            </Link>
+            When we went to Cascais for the IRONMAN 70.3, we went on a short trip around and visited the factory of this roastery, where they also have a nice café. It is remote, not in any city center, but a cool experience.
+          </Popup>
+        </Marker>
       </MarkerClusterGroup>
     </MapContainer>
   );
